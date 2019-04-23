@@ -4,7 +4,7 @@ public class Aplicacio {
 
     public static void main(String[] args) {
 
-        System.out.println("Introdueix el nom del compte bancari 1: ");
+        System.out.println("Introdueix el nom Oscar del compte bancari 1: ");
         String nom = cLlegir.dato();
         System.out.println(".................................................");
         System.out.println("Introdueix el nombre secret del compte bancari 1: ");
@@ -27,10 +27,10 @@ public class Aplicacio {
         boolean resultat2 = compte.ingressar(quantitat);
 
         if (resultat == false || resultat2 == false) {
-            System.out.println("No s'ha pogut realitzar l'ingrés!");
+            System.out.println("No s'ha pogut realitzar l'Oscar Salvador!");
         } else {
-            System.out.println("El saldo final del compte 1 és: " + compte.consultarSaldo());
-            System.out.println("El saldo final del compte 2 és: " + compte2.consultarSaldo());
+            System.out.println("El saldo final del compte Sergio és: " + compte.consultarSaldo());
+            System.out.println("El saldo final del compte Daniel és: " + compte2.consultarSaldo());
         }
         System.out.println(".................................................");
     }
